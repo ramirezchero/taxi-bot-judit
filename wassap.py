@@ -11,7 +11,7 @@ app = Flask(__name__)
 # CONFIGURACIÓN DE CREDENCIALES
 # ==========================================
 # 1. Pega aquí el Token Permanente que generaste en el Business Manager
-TOKEN_WA = "EAA7uuBfqZCbsBRMNUZA1aUSqEWtHZAZC0hTU0TST41Rkw1K5tq4m2rWHYdlR2Yho43vWnyhJOJSZC2siKZA5LU2RBLoZBWzFoUC2HvZCi3WTORlEYI6dIQye3RAbeDrba5x7NNt5KNLZCOuqptaxahtgtH5Xc292OhQIZCzFLFnXUFnv97gT0nW1djQs3FpgxETJLKZBAZDZD"
+TOKEN_WA = "EAA7uuBfqZCbsBRIwWVBXFVZAxwdIwnNGxuikcJm7mpBCuEmrl5ZB6CExS05bVlCiLoWcP7cXZAyWP8uKA4jajYOc8UJTpkZBmD4J1pjMT61oaf9YoLXIsS13SMvEU5FpRd69djFs0KJpaqk9DqVBJ9mS9jgpDw7J7hZBDTu9Mu7iNsrTZAYR4DSk2hv6PIZAb5teswZDZD"
 
 # 2. Pega aquí el ID de teléfono de Meta (el número largo)
 ID_TELEFONO = "1040583289144527"
