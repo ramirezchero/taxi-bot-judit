@@ -76,7 +76,10 @@ def enviar_confirmacion_wa(texto, numero_destino):
 def webhook():
     if request.method == 'GET':
         # Token de verificación que pusiste en Meta (ej: taxi_secret_2026)
-        return request.args.get('hub.challenge')
+        #return request.args.get('hub.challenge')
+        from flask import make_response    
+        challenge = request.args.get('hub.challenge')
+        return make_response(challenge, 200, {"Content-Type": "text/plain"})
 
     if request.method == 'POST':
         data = request.json
